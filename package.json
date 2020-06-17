@@ -1,0 +1,26 @@
+{
+  "name": "tlang",
+  "version": "1.0.0",
+  "description": "_",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "_",
+    "compile": "node --es-module-specifier-resolution=node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "_"
+  },
+  "keywords": [
+    "_"
+  ],
+  "author": "_",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/node": "^14.0.1",
+    "chalk": "^4.0.0",
+    "fs-extra": "^9.0.1",
+    "readdirp": "^3.4.0"
+  }
+}

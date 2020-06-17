@@ -1,0 +1,58 @@
+body {
+    background: blue;
+    font-family: sans-serif;
+    color: gray;
+}
+#container {
+    display: flex;
+    margin: 1em 2em;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0 1em;
+}
+.math {
+    background: green;
+}
+
+/* blocks */
+.section {
+    background: yellow;
+    border-left: 0.5em solid red;
+    border-radius: 1em;
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+}
+.subsection {
+    background: orange;
+    border-left: 0.5em solid purple;
+    border-radius: 1em;
+    padding: 0.5em 0;
+    margin: 0.5em 0;
+}
+.aligned {
+    background: green;
+}
+.definition {
+    border-left: 0.5em solid blue;
+    background: pink;
+}
+.theorem {
+    border-left: 0.5em solid red;
+    background: pink;
+}
+.proof {
+    border-left: 0.5em solid purple;
+    background: orange;
+}
+.enumerate {
+}
+.itemize {
+}
+.item {
+}
+.subitem {
+}
